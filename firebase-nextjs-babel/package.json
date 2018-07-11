@@ -1,0 +1,16 @@
+{
+  "name": "firebase-nextjs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["app/", "service1/", "service2/"],
+  "scripts": {
+    "deploy:all": "yarn lerna run deploy --stream",
+    "clean:all": "yarn lerna run clean --stream",
+    "fb-login": "yarn firebase login"
+  },
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  },
+  "main": "index.js"
+}

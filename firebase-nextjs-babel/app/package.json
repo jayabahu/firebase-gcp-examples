@@ -1,0 +1,27 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next client/",
+    "build": "node scripts/build.js",
+    "clean": "node scripts/clean.js",
+    "predeploy": "node scripts/predeploy.js",
+    "deploy": "node scripts/deploy.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^5.12.1",
+    "firebase-functions": "^1.0.2",
+    "next": "^6.1.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.0.0-beta.42",
+    "firebase-tools": "^3.18.4",
+    "load-json-file": "^5.0.0",
+    "lodash.get": "^4.4.2",
+    "rimraf": "^2.6.2",
+    "shelljs": "^0.8.2"
+  }
+}
