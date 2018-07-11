@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "source": "dist/appServer"
+  },
+  "hosting": {
+    "public": "dist/public",
+    "rewrites": [
+      {
+        "source": "**/**",
+        "function": "appServer-app1"
+      }
+    ]
+  }
+}

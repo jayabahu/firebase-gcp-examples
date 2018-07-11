@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "blog-post-examples",
+    "production": "<production-project-id>"
+  }
+}
